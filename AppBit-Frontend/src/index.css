@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-font: #000000;
+  --color-primary: #1C568A;
+  --color-primary-50: #1C568A80;
+  --color-primary-dark: #023059;
+  --color-primary-light: #1C568A;
+  --color-secondary: #FFFFFF;
+  --color-secondary-dark: #24BFBF;
+  --color-secondary-light: #4ED9B1;
+  --color-background: #F0f2f2;
+}
+
+:root {
+  --fuente-principal: 'Istok Web', sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--fuente-principal);
+}
